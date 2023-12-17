@@ -1,0 +1,9 @@
+dataset:
+  raw: ./data/early_and_late
+  exp: ./data/early_and_late
+
+sample:
+  N: 8 
+
+max_util: 1.5
+#1.2816200962851596

@@ -1,0 +1,8 @@
+dataset:
+  raw: /home/kdb82/workspace/constraint_ranking/data/shuffled_movie_len_top_10
+  exp: /home/kdb82/workspace/constraint_ranking/data/shuffled_movie_len_top_10
+
+sample:
+  N: 50
+
+max_util: 11.445476822659241

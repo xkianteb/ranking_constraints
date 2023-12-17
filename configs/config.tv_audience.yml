@@ -1,0 +1,9 @@
+dataset:
+  raw: /home/kdb82/workspace/constraint_ranking/data/tv_audience
+  exp: /home/kdb82/workspace/constraint_ranking/data/tv_audience
+
+sample:
+  N: 76 
+
+
+max_util: 1.171871372721509

@@ -1,0 +1,11 @@
+dataset:
+  raw: ~/data/LF-AmazonTitles-1.3M
+  exp: ./data/xc
+
+sample:
+  N: 50
+  K: 100
+
+# max_util: 2.600706074206871
+max_util: 4.528982931443541
+# max_util:  3.3091533003707676

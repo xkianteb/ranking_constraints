@@ -1,0 +1,9 @@
+dataset:
+  raw: ~/data/KuaiRec
+  exp: ./data/kuai
+
+sample:
+  N: 50
+
+
+max_util: 7.139678438151739

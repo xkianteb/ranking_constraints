@@ -1,0 +1,9 @@
+dataset:
+  raw: ./data/stationary_with_variance_shift
+  exp: ./data/stationary_with_variance_shift
+
+sample:
+  N: 4 
+
+max_util: 1.5
+#1.2816200962851596
