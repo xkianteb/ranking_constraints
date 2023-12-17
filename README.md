@@ -1,5 +1,8 @@
 # Ranking with Long-Term Constraints
 
+This repository contains the official implementation of the paper [[Ranking with Long-Term Constraints]](https://arxiv.org/pdf/2307.04923.pdf). 
+
+
 ## Enviroment Setup
 Python 3.10
 - Create virtual Enviroment with virtualenv, conda or ...
