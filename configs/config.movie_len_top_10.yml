@@ -1,6 +1,6 @@
 dataset:
-  raw: /home/kdb82/workspace/constraint_ranking/data/movie_len_top_10
-  exp: /home/kdb82/workspace/constraint_ranking/data/movie_len_top_10
+  raw: ./data/movie_len_top_10
+  exp: ./data/movie_len_top_10
 
 sample:
   N: 50

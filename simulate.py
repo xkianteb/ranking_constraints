@@ -5,14 +5,9 @@ from pathlib import Path
 from loguru import logger
 import pandas as pd
 
-#from config import dataConfig as dc
-#import controller as ctrl
-#from simulator import Simulator
-#from constraint_ranking.utils import init_seed, load_conf #, SHORT_TO_FULL
-
-from constraint_ranking.config import create_parser, parse_args, parse_dataset_args
-from constraint_ranking.simulator import Simulator
-from constraint_ranking import controller as ctrl
+from ranking_constraints.config import create_parser, parse_args, parse_dataset_args
+from ranking_constraints.simulator import Simulator
+from ranking_constraints import controller as ctrl
 
 if __name__ == "__main__":
     configs = create_parser()

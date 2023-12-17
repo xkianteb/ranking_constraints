@@ -4,7 +4,7 @@ with open("requirements.txt") as fp:
     requirements = fp.read().splitlines()
 
 setup(
-    name="constraint_ranking",
+    name="ranking_constraints",
     version="0.1.0",
     packages=find_packages(),
     authors="",

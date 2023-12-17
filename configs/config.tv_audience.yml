@@ -1,6 +1,6 @@
 dataset:
-  raw: /home/kdb82/workspace/constraint_ranking/data/tv_audience
-  exp: /home/kdb82/workspace/constraint_ranking/data/tv_audience
+  raw: ./data/tv_audience
+  exp: ./data/tv_audience
 
 sample:
   N: 76 

@@ -4,7 +4,7 @@ import yaml
 import argparse
 from pathlib import Path
 
-from constraint_ranking.utils import init_seed, load_conf, SHORT_TO_FULL
+from ranking_constraints.utils import init_seed, load_conf, SHORT_TO_FULL
 
 
 def create_parser():

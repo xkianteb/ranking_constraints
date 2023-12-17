@@ -1,6 +1,6 @@
 dataset:
-  raw: /home/kdb82/workspace/constraint_ranking/data/shuffled_movie_len_top_10
-  exp: /home/kdb82/workspace/constraint_ranking/data/shuffled_movie_len_top_10
+  raw: ./data/shuffled_movie_len_top_10
+  exp: ./data/shuffled_movie_len_top_10
 
 sample:
   N: 50

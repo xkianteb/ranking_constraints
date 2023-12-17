@@ -7,7 +7,7 @@ import numpy as np
 from loguru import logger
 from sinkhorn_knopp import sinkhorn_knopp as skp
 from collections import defaultdict
-from constraint_ranking.utils import (
+from ranking_constraints.utils import (
     dcg_util_fn,
     exposure_fn,
     get_train_relevance,
