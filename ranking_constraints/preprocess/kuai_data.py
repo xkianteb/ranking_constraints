@@ -5,11 +5,15 @@ import pandas as pd
 from loguru import logger
 from sklearn.model_selection import train_test_split
 
-from config import dataConfig as dc
+#from config import dataConfig as dc
+from ranking_constraints.config import create_parser, parse_args, parse_dataset_args
 
 if __name__ == "__main__":
-    dc.init_config("kuai")
-    DATA_DIR, EXP_DIR = dc.DATA_DIR, dc.EXP_DIR
+    #dc.init_config("kuai")
+    configs = create_parser()
+    configs = parse_dataset_args(configs)
+    #DATA_DIR, EXP_DIR = dc.DATA_DIR, dc.EXP_DIR
+    DATA_DIR, EXP_DIR = configs['DATA_DIR'], configs['EXP_DIR']
 
     random.seed(0)
 

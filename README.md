@@ -61,7 +61,7 @@ Fully-synthetic: `early_and_late` <br />
 KuaiRec: `experiments/multi_group.yml` <br />
 Linear television dataset Tv Audience: `experiments/zf_tv_single.yml` <br />
 Last.fm: `experiments/multi_lastfm_len_top_10.yml.yml` <br />
-Fully-synthetic: `experiments/early_and_late` <br />
+Fully-synthetic: `experiments/multi_early_and_late_group.yml` <br />
 
 ## Controllers `<ctrl>`:
 Myopic Controller: `mc` <br />
